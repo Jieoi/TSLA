@@ -1,0 +1,26 @@
+# Core data science libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Natural Language Processing
+nltk>=3.7
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Data visualization (commonly used in data science projects)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine learning libraries (commonly used for sentiment analysis)
+scikit-learn>=1.0.0
+
+# Text processing and web scraping (likely needed for data collection)
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+
+# Additional utilities
+python-dateutil>=2.8.0
+pytz>=2021.1
