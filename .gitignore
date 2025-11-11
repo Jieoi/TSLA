@@ -1,3 +1,4 @@
 BERT_models/outputs/
 BERT_models/*.csv
 BERT_day_agg/outputs/
+NN training/outputs/
