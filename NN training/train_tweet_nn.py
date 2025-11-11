@@ -43,7 +43,7 @@ tf.random.set_seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 DATA_PATH_CANDIDATES = [
-    "tweet_full.csv",
+    "tweet_full_11.csv",
     os.path.join("..", "data", "process_data", "twitter", "tweet_full.csv"),
     os.path.join(".", "tweet_full.csv"),
 ]
