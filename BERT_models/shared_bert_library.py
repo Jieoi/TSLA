@@ -9,6 +9,8 @@ import re
 import math
 import gc
 import random
+from typing import Iterable
+
 import numpy as np
 import pandas as pd
 import torch
@@ -270,4 +272,12 @@ def print_evaluation_results(val_metrics, test_metrics):
     print(f"  Recall:         {test_metrics['recall']:.4f}")
     print(f"  ROC-AUC:        {test_metrics['auc']:.4f}")
     print("=" * 80)
+
+
+def resolve_first_existing(candidates: Iterable[str], *, description: str = "file") -> str:
+    """Return the first existing path from candidates or raise informative error."""
+    for path in candidates:
+        if os.path.exists(path):
+            return path
+    raise FileNotFoundError(f"Could not locate {description}. Checked: {list(candidates)}")
 

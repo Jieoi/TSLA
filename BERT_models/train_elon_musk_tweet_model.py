@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
+import tensorflow as tf
 from transformers import AutoTokenizer, AutoModel
 
 # Add parent directory to path for shared library
@@ -17,7 +18,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from shared_bert_library import (
     get_device, safe_read_csv, clean_text, build_or_load_embeds,
     DirectionClassificationHead, to_loader, eval_classification,
-    print_evaluation_results, TIME_SPLITS, MODEL_NAME, MAX_LEN,
+    print_evaluation_results, resolve_first_existing,
+    TIME_SPLITS, MODEL_NAME, MAX_LEN,
     BATCH_EMB, FP16, HID, DROPOUT, LR, WEIGHT_DECAY
 )
 
@@ -25,7 +27,12 @@ from shared_bert_library import (
 DEVICE = get_device()
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TWEETS_RAW = os.path.join(SCRIPT_DIR, "tweets_labeled.csv")
-PRICES_RAW = os.path.join(SCRIPT_DIR, "..", "..", "TLSA_price_labelled_processed.csv")
+PRICE_PATH_CANDIDATES = [
+    os.path.join(SCRIPT_DIR, "TLSA_price_labelled_processed.csv"),
+    os.path.join(SCRIPT_DIR, "..", "..", "TLSA_price_labelled_processed.csv"),
+    os.path.join(SCRIPT_DIR, "..", "TLSA_price_labelled_processed.csv"),
+]
+PRICES_RAW = resolve_first_existing(PRICE_PATH_CANDIDATES, description="price dataset CSV")
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -34,7 +41,10 @@ EMB_CACHE_NPY = os.path.join(OUTPUT_DIR, "tweet_embeds.npy")
 DAILY_DATA_CSV = os.path.join(OUTPUT_DIR, "daily_tweet_direction_dataset.csv")
 PRED_VAL_CSV = os.path.join(OUTPUT_DIR, "tweet_direction_preds_val.csv")
 PRED_TEST_CSV = os.path.join(OUTPUT_DIR, "tweet_direction_preds_test.csv")
+PRED_COMBINED_CSV = os.path.join(OUTPUT_DIR, "tweet_predictions.csv")
 MODEL_PATH = os.path.join(OUTPUT_DIR, "tweet_direction_model.pt")
+MODEL_KERAS_PATH = os.path.join(OUTPUT_DIR, "tweet_price_classifier_model.keras")
+SHAPLEY_DATA_PATH = os.path.join(OUTPUT_DIR, "tweet_shapley_data.npz")
 
 # Time splits
 TRAIN_START = TIME_SPLITS["TRAIN_START"]
@@ -268,6 +278,7 @@ def main():
     print("\n[7/7] Final Evaluation...")
     
     model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE, weights_only=True))
+    model = model.to(DEVICE)
     val_metrics, val_preds, val_probs = eval_classification(model, val_loader, DEVICE)
     test_metrics, test_preds, test_probs = eval_classification(model, test_loader, DEVICE)
     
@@ -284,6 +295,61 @@ def main():
     
     save_preds(val_idx, val_preds, val_probs, y_val, PRED_VAL_CSV)
     save_preds(test_idx, test_preds, test_probs, y_test, PRED_TEST_CSV)
+
+    # Combined predictions CSV to mirror NN outputs
+    val_dates = pd.to_datetime(Xy.loc[val_idx, "market_date"]).reset_index(drop=True)
+    test_dates = pd.to_datetime(Xy.loc[test_idx, "market_date"]).reset_index(drop=True)
+    combined_predictions = pd.DataFrame(
+        {
+            "market_date": pd.concat([val_dates, test_dates], ignore_index=True),
+            "split": ["val"] * len(val_probs) + ["test"] * len(test_probs),
+            "prob_up": np.concatenate([val_probs, test_probs]),
+            "pred_direction": np.concatenate([val_preds, test_preds]),
+            "actual_direction": np.concatenate([y_val, y_test]),
+        }
+    )
+    combined_predictions.to_csv(PRED_COMBINED_CSV, index=False)
+    print(f"[OK] Saved combined predictions -> {PRED_COMBINED_CSV} ({len(combined_predictions)} rows)")
+
+    # Export Shapley-ready dataset (aligned with NN outputs)
+    np.savez_compressed(
+        SHAPLEY_DATA_PATH,
+        X_val=X_val.astype(np.float32),
+        y_val=y_val.astype(int),
+        X_test=X_test.astype(np.float32),
+        y_test=y_test.astype(int),
+        val_probs=val_probs.astype(np.float32),
+        test_probs=test_probs.astype(np.float32),
+        val_dates=np.array(val_dates.dt.date),
+        test_dates=np.array(test_dates.dt.date),
+    )
+    print(f"[OK] Saved Shapley dataset -> {SHAPLEY_DATA_PATH}")
+
+    # Convert PyTorch head to a Keras model for interoperability
+    model_cpu = model.to("cpu").eval()
+    hidden_dim = model_cpu.net[0].out_features
+    input_dim = model_cpu.net[0].in_features
+
+    keras_model = tf.keras.Sequential(
+        [
+            tf.keras.layers.Input(shape=(input_dim,)),
+            tf.keras.layers.Dense(hidden_dim, activation=tf.nn.gelu),
+            tf.keras.layers.Dropout(DROPOUT),
+            tf.keras.layers.Dense(1, activation="sigmoid"),
+        ]
+    )
+
+    with torch.no_grad():
+        dense1_weight = model_cpu.net[0].weight.detach().cpu().numpy().T
+        dense1_bias = model_cpu.net[0].bias.detach().cpu().numpy()
+        dense2_weight = model_cpu.net[3].weight.detach().cpu().numpy().T
+        dense2_bias = model_cpu.net[3].bias.detach().cpu().numpy()
+
+    keras_model.layers[0].set_weights([dense1_weight, dense1_bias])
+    keras_model.layers[2].set_weights([dense2_weight, dense2_bias])
+
+    keras_model.save(MODEL_KERAS_PATH)
+    print(f"[OK] Saved Keras-compatible model -> {MODEL_KERAS_PATH}")
     
     print("\n[OK] Training Complete!")
     print(f"[OK] Model saved to: {MODEL_PATH}")

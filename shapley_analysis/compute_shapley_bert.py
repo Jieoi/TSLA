@@ -10,7 +10,7 @@ import os
 import pickle
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable
 
 import numpy as np
 import pandas as pd
@@ -32,6 +32,14 @@ sys.path.insert(0, str(BERT_DIR))
 from shared_bert_library import DirectionClassificationHead, TIME_SPLITS, get_device  # type: ignore
 
 DEVICE = get_device()
+
+
+def resolve_first_existing(candidates: Iterable[Path], *, description: str) -> Path | None:
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    print(f"  [WARN] No {description} found. Checked: {list(map(str, candidates))}")
+    return None
 
 
 class SigmoidModel(nn.Module):
@@ -75,7 +83,11 @@ def compute_shap_values(
     if isinstance(shap_values, list):
         shap_values = shap_values[0]
 
-    return np.asarray(shap_values)
+    shap_values = np.asarray(shap_values)
+    if shap_values.ndim == 3 and shap_values.shape[-1] == 1:
+        shap_values = np.squeeze(shap_values, axis=-1)
+
+    return shap_values
 
 
 def group_shap_by_source(shap_values: np.ndarray, feature_groups: dict[str, list[int]]) -> np.ndarray:
@@ -124,20 +136,35 @@ def main() -> None:
     models_config = [
         {
             "name": "tweet",
-            "model_path": OUTPUT_DIR / "tweet_direction_model.pt",
-            "data_path": OUTPUT_DIR / "shapley_data_tweet.npz",
+            "model_candidates": [
+                OUTPUT_DIR / "tweet_direction_model.pt",
+            ],
+            "data_candidates": [
+                OUTPUT_DIR / "shapley_data_tweet.npz",
+                OUTPUT_DIR / "tweet_shapley_data.npz",
+            ],
             "output_path": SHAPLEY_OUTPUT_DIR / "shapley_tweet.pkl",
         },
         {
             "name": "tesla_article",
-            "model_path": OUTPUT_DIR / "tesla_article_direction_model.pt",
-            "data_path": OUTPUT_DIR / "shapley_data_tesla_article.npz",
+            "model_candidates": [
+                OUTPUT_DIR / "tesla_article_direction_model.pt",
+            ],
+            "data_candidates": [
+                OUTPUT_DIR / "shapley_data_tesla_article.npz",
+                OUTPUT_DIR / "tesla_article_shapley_data.npz",
+            ],
             "output_path": SHAPLEY_OUTPUT_DIR / "shapley_tesla_article.pkl",
         },
         {
             "name": "market_news",
-            "model_path": OUTPUT_DIR / "market_article_direction_model.pt",
-            "data_path": OUTPUT_DIR / "shapley_data_market_news.npz",
+            "model_candidates": [
+                OUTPUT_DIR / "market_article_direction_model.pt",
+            ],
+            "data_candidates": [
+                OUTPUT_DIR / "shapley_data_market_news.npz",
+                OUTPUT_DIR / "market_article_shapley_data.npz",
+            ],
             "output_path": SHAPLEY_OUTPUT_DIR / "shapley_market_news.pkl",
         },
     ]
@@ -148,18 +175,16 @@ def main() -> None:
 
     for config in models_config:
         name = config["name"]
-        model_path: Path = config["model_path"]
-        data_path: Path = config["data_path"]
+        model_path = resolve_first_existing(config["model_candidates"], description="model file")
+        data_path = resolve_first_existing(config["data_candidates"], description="Shapley dataset")
         output_path: Path = config["output_path"]
 
         print(f"\nProcessing {name} model...")
 
-        if not model_path.exists():
-            print(f"  [WARN] Model not found: {model_path}")
+        if model_path is None:
             continue
 
-        if not data_path.exists():
-            print(f"  [WARN] Data file not found: {data_path}")
+        if data_path is None:
             print("  [INFO] Run prepare_shapley_data.py first to create data files.")
             continue
 

@@ -49,7 +49,11 @@ def compute_shap_values(
     if isinstance(shap_values, list):
         shap_values = shap_values[0]
 
-    return np.asarray(shap_values)
+    shap_values = np.asarray(shap_values)
+    if shap_values.ndim == 3 and shap_values.shape[-1] == 1:
+        shap_values = np.squeeze(shap_values, axis=-1)
+
+    return shap_values
 
 
 def group_shap_by_source(shap_values: np.ndarray, feature_groups: dict[str, list[int]]) -> np.ndarray:
@@ -93,18 +97,63 @@ def compute_aggregated_metrics(group_shap: np.ndarray, source_names: list[str]) 
 
 def main() -> None:
     """Compute SHAP values for all configured NN models."""
+    def resolve_first_existing(candidates: list[Path]) -> Path | None:
+        for candidate in candidates:
+            if candidate.exists():
+                return candidate
+        return None
+
     models_config = [
         {
             "name": "market_news",
-            "model_path": OUTPUT_DIR / "market_topic_direction_model.h5",
-            "data_path": OUTPUT_DIR / "shapley_data_market_news.npz",
+            "model_candidates": [
+                OUTPUT_DIR / "market_topic_direction_model.h5",
+                OUTPUT_DIR / "market_news_price_classifier_model.keras",
+            ],
+            "data_candidates": [
+                OUTPUT_DIR / "shapley_data_market_news.npz",
+                OUTPUT_DIR / "market_news_shapley_data.npz",
+            ],
+            "prediction_candidates": [
+                OUTPUT_DIR / "market_news_predictions.csv",
+                OUTPUT_DIR / "market_ouputs" / "market_news_predictions_9.csv",
+                OUTPUT_DIR / "market_ouputs" / "market_news_predictions_10.csv",
+                OUTPUT_DIR / "market_ouputs" / "market_news_predictions_8.csv",
+            ],
             "output_path": SHAPLEY_OUTPUT_DIR / "shapley_market_news_nn.pkl",
         },
         {
             "name": "tesla_news",
-            "model_path": OUTPUT_DIR / "tesla_topic_direction_model.h5",
-            "data_path": OUTPUT_DIR / "shapley_data_tesla_news.npz",
+            "model_candidates": [
+                OUTPUT_DIR / "tesla_topic_direction_model.h5",
+                OUTPUT_DIR / "tesla_news_price_classifier_model.keras",
+            ],
+            "data_candidates": [
+                OUTPUT_DIR / "shapley_data_tesla_news.npz",
+                OUTPUT_DIR / "tesla_news_shapley_data.npz",
+            ],
+            "prediction_candidates": [
+                OUTPUT_DIR / "tesla_news_predictions.csv",
+                OUTPUT_DIR / "tesla_outputs" / "tesla_news_predictions_9.csv",
+                OUTPUT_DIR / "tesla_outputs" / "tesla_news_predictions_8.csv",
+                OUTPUT_DIR / "tesla_outputs" / "tesla_news_predictions_7.csv",
+            ],
             "output_path": SHAPLEY_OUTPUT_DIR / "shapley_tesla_news_nn.pkl",
+        },
+        {
+            "name": "tweet",
+            "model_candidates": [
+                OUTPUT_DIR / "tweet_topic_direction_model.h5",
+                OUTPUT_DIR / "tweet_price_classifier_model.keras",
+            ],
+            "data_candidates": [
+                OUTPUT_DIR / "shapley_data_tweet.npz",
+                OUTPUT_DIR / "tweet_shapley_data.npz",
+            ],
+            "prediction_candidates": [
+                OUTPUT_DIR / "tweet_predictions.csv",
+            ],
+            "output_path": SHAPLEY_OUTPUT_DIR / "shapley_tweet_nn.pkl",
         },
     ]
 
@@ -114,20 +163,23 @@ def main() -> None:
 
     for config in models_config:
         name = config["name"]
-        model_path: Path = config["model_path"]
-        data_path: Path = config["data_path"]
+        model_path = resolve_first_existing(config["model_candidates"])
+        data_path = resolve_first_existing(config["data_candidates"])
+        prediction_path = resolve_first_existing(config["prediction_candidates"])
         output_path: Path = config["output_path"]
 
         print(f"\nProcessing {name} model...")
 
-        if not model_path.exists():
-            print(f"  [WARN] Model not found: {model_path}")
+        if model_path is None:
+            print(f"  [WARN] No model found. Checked: {config['model_candidates']}")
             continue
 
-        if not data_path.exists():
-            print(f"  [WARN] Data file not found: {data_path}")
+        if data_path is None:
+            print(f"  [WARN] No Shapley dataset found. Checked: {config['data_candidates']}")
             print("  [INFO] Run prepare_shapley_data_nn.py first.")
             continue
+        if prediction_path is None:
+            print(f"  [WARN] No predictions CSV found. Checked: {config['prediction_candidates']}")
 
         try:
             model, X_test, y_test = load_model_and_data(model_path, data_path)
@@ -160,7 +212,18 @@ def main() -> None:
                 "metrics": metrics_df,
                 "target": target[:n_target],
                 "y_test": y_test[:n_target],
+                "model_path": str(model_path),
+                "data_path": str(data_path),
+                "prediction_path": str(prediction_path) if prediction_path else None,
             }
+
+            if prediction_path is not None:
+                try:
+                    predictions_df = pd.read_csv(prediction_path)
+                    results["predictions"] = predictions_df
+                    print(f"  [INFO] Loaded predictions CSV: {prediction_path}")
+                except Exception as pred_exc:  # pylint: disable=broad-except
+                    print(f"  [WARN] Failed to load predictions CSV ({prediction_path}): {pred_exc}")
 
             with output_path.open("wb") as handle:
                 pickle.dump(results, handle)
