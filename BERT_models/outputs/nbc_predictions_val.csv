@@ -1,0 +1,514 @@
+market_date,title,actual_direction,pred_direction,pred_prob_up,actual_residual
+2024-04-12,"Marjorie Taylor Greene held Trump stock. Now that it's tanking, she won't say what happened to it.",0.0,1,0.622,-3.5500030517578125
+2024-04-12,"Arizona's 1864 abortion ban was mostly a result of power struggles, historians say",0.0,0,0.45,-3.5500030517578125
+2024-04-12,"Before Momofuku’s chili crunch, there was ‘OG’ spicy oil Lao Gan Ma",0.0,1,0.631,-3.5500030517578125
+2024-04-11,Japanese PM Fumio Kishida addresses U.S. 'self-doubt' about world role in remarks to Congress,1.0,0,0.401,2.8400115966796875
+2024-04-11,South Korean prime minister offers to resign after parliamentary election defeat,1.0,0,0.4731,2.8400115966796875
+2024-04-11,Vietnam sentences real estate tycoon to death in $12.5 billion fraud case,1.0,0,0.4475,2.8400115966796875
+2024-04-11,"Trump Media director accused of 'hacking' files in attempted corporate 'coup', lawsuit alleges",1.0,1,0.5513,2.8400115966796875
+2024-04-11,Hatch launches new “Tuck-In by You” bedtime feature,1.0,1,0.5513,2.8400115966796875
+2024-04-11,"The best new products in April from Hoka, Sony, Our Place, Samsung and more",1.0,0,0.4927,2.8400115966796875
+2024-04-11,"5 Best Upright Vacuums of 2025, According to Experts",1.0,1,0.5,2.8400115966796875
+2024-04-10,Hamas leader Ismail Haniyeh says 3 of his sons were killed in an Israeli airstrike in Gaza,0.0,1,0.5513,-5.1200103759765625
+2024-04-10,"South Korea’s liberal opposition parties win big in parliamentary election, exit polls suggest",0.0,0,0.4148,-5.1200103759765625
+2024-04-10,"As China’s economy falters, so does middle-class confidence",0.0,1,0.523,-5.1200103759765625
+2024-04-10,Arizona abortion ruling reactions and Dana-Farber Cancer Institute retractions: Morning Rundown,0.0,1,0.512,-5.1200103759765625
+2024-04-10,European court takes Russian billionaires off sanctions list,0.0,0,0.4822,-5.1200103759765625
+2024-04-10,Are Iranian drones turning the tide of Sudan's civil war?,0.0,1,0.589,-5.1200103759765625
+2024-04-10,Inflation report March 2024: Consumer prices accelerated in March to 3.5%,0.0,0,0.4758,-5.1200103759765625
+2024-04-10,Is microneedling at home safe?,0.0,0,0.4275,-5.1200103759765625
+2024-04-10,"Best At-Home Bunion Treatments, According to Podiatrists",0.0,0,0.3962,-5.1200103759765625
+2024-04-10,Los Angeles Mayor Karen Bass pitches Rep. Barbara Lee to be the next U.S. housing secretary,0.0,0,0.4246,-5.1200103759765625
+2024-04-09,Janet Yellen says she won't rule out possible tariffs on China's green exports,1.0,0,0.495,3.9000091552734375
+2024-04-09,Tesla settles lawsuit over Autopilot crash that killed Apple engineer,1.0,0,0.4302,3.9000091552734375
+2024-04-09,Norfolk Southern reaches $600M settlement more than a year after Ohio train derailment,1.0,0,0.4854,3.9000091552734375
+2024-04-09,"With violent rhetoric, Trump fights electric vehicles to defeat Biden in Michigan",1.0,1,0.539,3.9000091552734375
+2024-04-09,China's Xi meets with Russian Foreign Minister Lavrov in show of support against Western democracies,1.0,0,0.4473,3.9000091552734375
+2024-04-09,"A new study reveals the states where private equity has the most influence on housing, health care, jobs and pensions",1.0,0,0.4539,3.9000091552734375
+2024-04-09,The internet is obsessed with what Janet Yellen eats in China,1.0,0,0.4556,3.9000091552734375
+2024-04-09,Maryland governor and members of Congress to meet to discuss support for rebuilding collapsed bridge,1.0,0,0.4822,3.9000091552734375
+2024-04-09,Trump Media stock erases all gains since it began trading as shares fall another 11% Monday,1.0,1,0.529,3.9000091552734375
+2024-04-09,Best TV Streaming Services in 2025 | NBC Select,1.0,1,0.5244,3.9000091552734375
+2024-04-08,Yellen says U.S. plans to 'underscore' need for China to shift policy,1.0,1,0.5176,8.080001831054688
+2024-04-08,"China says innovations, not subsidies, are powering EV edge as Yellen raises 'overcapacity' concerns",1.0,1,0.5176,8.080001831054688
+2024-04-08,How immigrants are helping boost the U.S. job market without affecting inflation,1.0,1,0.5054,8.080001831054688
+2024-04-08,Baltimore businesses see bridge fallout as a short-term hurdle,1.0,1,0.5713,8.080001831054688
+2024-04-08,"Linwei Ding was a Google software engineer. He was also a prolific thief of trade secrets, say prosecutors.",1.0,1,0.5137,8.080001831054688
+2024-04-08,Major mail delivery delays raise concerns about voting in the 2024 elections,1.0,1,0.551,8.080001831054688
+2024-04-08,"9 Best Steam Cleaners of 2025, According to Experts",1.0,0,0.468,8.080001831054688
+2024-04-05,"The U.S. economy rolls on, adds 303,000 jobs in March",0.0,0,0.4724,-6.2100067138671875
+2024-04-05,Biden announces plans to address Baltimore port closure and help workers after deadly bridge collapse,0.0,1,0.5596,-6.2100067138671875
+2024-04-05,"Yellen kicks off China meetings with overcapacity concerns, encouraging market-oriented reforms",0.0,0,0.4294,-6.2100067138671875
+2024-04-05,"100,000 live salmon spill out of overturned truck in Oregon — and most end up swimming away in creek",0.0,1,0.67,-6.2100067138671875
+2024-04-05,Mexico’s likely next president Claudia Sheinbaum is a climate scientist but politics has kept her quiet on global warming,0.0,1,0.574,-6.2100067138671875
+2024-04-05,"Traffic deaths topped 40,000 last year as NHTSA looks to reduce distracted driving",0.0,0,0.4622,-6.2100067138671875
+2024-04-04,"Bob Iger says Disney's mission is to entertain, not send messages",1.0,1,0.5283,2.7299957275390625
+2024-04-04,Trump Media is the most expensive U.S. stock to short — by far,1.0,0,0.4849,2.7299957275390625
+2024-04-04,CSX completes first diverted cargo shipments on new rail line for Port of Baltimore,1.0,1,0.667,2.7299957275390625
+2024-04-04,"Small businesses are still hungry to hire, but many workers eye better pay elsewhere",1.0,1,0.5317,2.7299957275390625
+2024-04-04,Here's who Treasury Secretary Janet Yellen is going to meet in China,1.0,0,0.4216,2.7299957275390625
+2024-04-04,"Indian company sold contaminated shrimp to U.S. grocery stores, 'whistleblower' says",1.0,0,0.474,2.7299957275390625
+2024-04-04,Rick Scott to launch a multi-million dollar ad buy focused on Florida Hispanics,1.0,1,0.5225,2.7299957275390625
+2024-04-04,Disney board battle: CEO Bob Iger vanquishes billionaire foe Nelson Peltz,1.0,1,0.559,2.7299957275390625
+2024-04-03,Amazon is removing Just Walk Out technology from its Fresh grocery stores in the U.S.,1.0,1,0.589,1.75
+2024-04-03,The largest fresh egg producer in the U.S. has found bird flu in chickens at a Texas plant,1.0,0,0.4863,1.75
+2024-04-03,Ugandan court rejects bid to nullify anti-gay law that provides for the death penalty in some cases,1.0,0,0.3887,1.75
+2024-04-03,Chuck Todd: Prepare for lots of campaign motion — and little actual movement,1.0,0,0.4155,1.75
+2024-04-03,"Trump sues Truth Social co-founders, says they're not entitled to stock shares",1.0,1,0.574,1.75
+2024-04-03,Loop Quiet Earplugs Review 2025,1.0,0,0.4775,1.75
+2024-04-03,"Second channel opened, allowing some vessels to bypass wreckage at the Baltimore bridge collapse site",1.0,0,0.474,1.75
+2024-04-02,"Apple discouraged Jon Stewart from interviewing Lina Khan, he says",0.0,0,0.4932,-8.589996337890625
+2024-04-02,"North Korea fires an intermediate-range missile, South Korea says",0.0,0,0.4688,-8.589996337890625
+2024-04-01,Trump Media auditor warns losses raise doubt about company,0.0,0,0.4336,-0.5699920654296875
+2024-04-01,Ex-Taiwanese President Ma visits China,0.0,1,0.5605,-0.5699920654296875
+2024-04-01,Gold prices hit another record high after fresh U.S. data spurs Fed cut expectations,0.0,0,0.3162,-0.5699920654296875
+2024-04-01,The best wellness products: Select Wellness Awards 2024,0.0,0,0.4858,-0.5699920654296875
+2024-04-01,Mexican authorities investigating deaths of eight Chinese migrants,0.0,1,0.545,-0.5699920654296875
+2024-04-01,Turkey’s opposition thumps Erdogan in pivotal local elections,0.0,1,0.5703,-0.5699920654296875
+2024-04-01,New $20 minimum wage for fast food workers in California set to start Monday,0.0,1,0.547,-0.5699920654296875
+2024-04-01,They came for Florida's sun and sand. They got soaring costs and a culture war.,0.0,0,0.4622,-0.5699920654296875
+2024-04-01,Crews start removing first piece of twisted steel from collapsed Baltimore bridge,0.0,1,0.55,-0.5699920654296875
+2024-04-01,Port of Baltimore workers were bracing for a busy summer season. Now thousands face an uncertain future.,0.0,1,0.5317,-0.5699920654296875
+2024-04-01,"As some countries spurn cars, the U.S. continues to embrace highways",0.0,1,0.5137,-0.5699920654296875
+2024-04-01,"Baltimore bridge crash brings scrutiny to contaminated fuel, an 'open secret' in shipping",0.0,1,0.503,-0.5699920654296875
+2024-04-01,"Best Buy offers to screen LGBTQ nonprofit donations after conservative pressure, filing shows",0.0,0,0.4875,-0.5699920654296875
+2024-04-01,Biden campaign to launch ad targeting former Nikki Haley voters,0.0,1,0.554,-0.5699920654296875
+2024-03-28,"Nobelist Daniel Kahneman, a pioneer of behavioral economics, dead at 90",0.0,0,0.4895,-4.040008544921875
+2024-03-28,'The whole bridge just fell down!': Police audio reveals moments before Francis Scott Key Bridge collapse,0.0,0,0.4922,-4.040008544921875
+2024-03-28,China lifts heavy tariffs on Australian wine as ties improve,0.0,0,0.4688,-4.040008544921875
+2024-03-28,Barack Obama and Bill Clinton to raise $25 million with Biden amid concerns about his age,0.0,1,0.5063,-4.040008544921875
+2024-03-28,Why some Haitians don't want foreign nations intervening in their crises — and others do,0.0,1,0.502,-4.040008544921875
+2024-03-28,Trump ramps up attacks on judge in hush money case after gag order,0.0,1,0.5947,-4.040008544921875
+2024-03-28,"Latino and Black dads often underestimate when teen sons are sexually active, delaying safe sex advice",0.0,1,0.504,-4.040008544921875
+2024-03-27,U.N. chief calls for slavery reparations to overcome ‘generations of discrimination’,1.0,0,0.4392,2.160003662109375
+2024-03-27,Mumbai overtakes Beijing to become Asia's billionaire capital for the first time,1.0,0,0.4849,2.160003662109375
+2024-03-27,China's Xi meets American CEOs in bid to boost confidence in ailing economy,1.0,1,0.5513,2.160003662109375
+2024-03-27,Largest U.S. sportsbooks join forces to tackle problem gambling,1.0,1,0.5566,2.160003662109375
+2024-03-27,"Biden's case for re-election is improving, but his polling against Trump is still shaky",1.0,0,0.472,2.160003662109375
+2024-03-27,5 Chinese nationals are killed in Pakistan suicide attack,1.0,0,0.4646,2.160003662109375
+2024-03-27,A rare mayday preceded Baltimore bridge collapse: 'I couldn't think of a worse situation',1.0,0,0.4617,2.160003662109375
+2024-03-27,Obamacare wars heat up as Biden and Trump clash over subsidies,1.0,1,0.5024,2.160003662109375
+2024-03-27,L.A. considers reparations for families forced off Dodger Stadium land,1.0,1,0.552,2.160003662109375
+2024-03-27,"Francis Scott Key bridge collapse: Shipping customers could see costly impact, delays",1.0,1,0.5557,2.160003662109375
+2024-03-26,Trump social media stock surges in first day of trading,1.0,1,0.6064,5.0399932861328125
+2024-03-26,Hungarian insider releases audio he says is proof of Orbán corruption,1.0,1,0.5435,5.0399932861328125
+2024-03-26,Supreme Court considers abortion pill access and major Baltimore bridge collapses: Morning Rundown,1.0,0,0.483,5.0399932861328125
+2024-03-26,"The 4 Best Bike Locks of 2025, According to Experts",1.0,0,0.4246,5.0399932861328125
+2024-03-26,Trump Media stock to start trading Tuesday as DJT,1.0,0,0.4895,5.0399932861328125
+2024-03-26,U.S. and U.K. announce sanctions over China-linked hacks on election watchdog and lawmakers,1.0,1,0.531,5.0399932861328125
+2024-03-25,"Philippines summons China envoy over standoff, dares Beijing to seek arbitration",1.0,1,0.517,1.8000030517578125
+2024-03-25,"Hong Kong Article 23: Basic rights threatened as law enacted, critics charge",1.0,0,0.417,1.8000030517578125
+2024-03-25,The last time a Trump company went public it didn't go well for investors,1.0,1,0.556,1.8000030517578125
+2024-03-25,"Fremont, Nebraska, needs migrant workers, but bars illegal aliens",1.0,1,0.503,1.8000030517578125
+2024-03-25,Sephora Savings Event 2024: 60+ best deals to shop now,1.0,0,0.4512,1.8000030517578125
+2024-03-25,Kamala Harris visits Puerto Rico for first time as vice president,1.0,1,0.5713,1.8000030517578125
+2024-03-25,Lawmakers ask why the Biden administration has told immigration judges not to talk to the media without permission,1.0,0,0.4587,1.8000030517578125
+2024-03-22,Trump's Truth Social to go public in deal that could net him $3 billion,0.0,1,0.5547,-1.9900054931640625
+2024-03-22,The Kremlin says Russia is in a 'state of war' in Ukraine,0.0,0,0.4707,-1.9900054931640625
+2024-03-22,Target doubles bonuses for salaried employees as profits surge,0.0,0,0.4922,-1.9900054931640625
+2024-03-22,The best Amazon beauty deals to shop: Spring Prime Day 2024,0.0,1,0.5225,-1.9900054931640625
+2024-03-22,Reddit pops 48% in NYSE debut after selling shares at top of range,0.0,0,0.4885,-1.9900054931640625
+2024-03-22,"Walmart Super Spring Savings Week deals: Dyson, Apple, Ninja and more",0.0,1,0.594,-1.9900054931640625
+2024-03-22,Biofire’s new ‘smart gun’ aims to prevent kids from shooting their parents’ weapons,0.0,1,0.5054,-1.9900054931640625
+2024-03-21,Venezuela arrests opponents allegedly tied to criminal plots ahead of elections,0.0,0,0.3994,-2.839996337890625
+2024-03-21,"In Arizona, an $8.5 billion CHIPS grant spells ‘jobs’ more than geopolitics",0.0,1,0.502,-2.839996337890625
+2024-03-21,Lawmakers release text of $1.2 trillion spending bill as shutdown deadline nears,0.0,1,0.547,-2.839996337890625
+2024-03-21,"TikTok aside, Congress has its eye on the U.S. money going into China",0.0,1,0.5,-2.839996337890625
+2024-03-21,We polled thousands of voters during the GOP primary season. Here’s what we learned.,0.0,1,0.5977,-2.839996337890625
+2024-03-21,"How to fix “tech neck”, according to experts",0.0,0,0.4097,-2.839996337890625
+2024-03-21,Federal Reserve still foresees 3 rate cuts this year but envisions fewer cuts in future,0.0,0,0.4785,-2.839996337890625
+2024-03-21,How the most Latino neighborhood in Nevada foreshadows a big 2024 fight,0.0,1,0.5376,-2.839996337890625
+2024-03-21,China pushes back on international criticism of restrictive new Hong Kong law,0.0,1,0.5205,-2.839996337890625
+2024-03-20,"Outlawed anti-drone jammers marketed on Google, Amazon",1.0,0,0.4353,4.339996337890625
+2024-03-20,"The U.S. is no longer one of the 20 happiest countries. If you're young, you probably know why.",1.0,1,0.5103,4.339996337890625
+2024-03-20,18 best home deals to shop during Amazon's spring sale,1.0,1,0.561,4.339996337890625
+2024-03-20,Amazon Big Spring Sale: 41 best Prime Day-like deals to shop,1.0,0,0.4463,4.339996337890625
+2024-03-20,Biden to tout government investing $8.5B in Intel's computer chip plants in four states,1.0,0,0.496,4.339996337890625
+2024-03-20,Vietnam's president resigns after just over a year in office,1.0,1,0.543,4.339996337890625
+2024-03-20,Trump asks for election interference case immunity and Shohei Otani bomb threat: Morning Rundown,1.0,0,0.4656,4.339996337890625
+2024-03-20,How a satire site gave birth to a fake Reba McEntire-Taylor Swift feud that crossed the internet,1.0,0,0.436,4.339996337890625
+2024-03-20,"Ed McBroom, a state senator who eviscerated Trump's voter fraud claims, is now backing him for president",1.0,0,0.467,4.339996337890625
+2024-03-20,Cuban president Miguel Díaz-Canel blasts 'interventionist' U.S. amid protests over shortages,1.0,1,0.5376,4.339996337890625
+2024-03-20,When will interest rates come down? Federal Reserve offers new clues,1.0,0,0.4905,4.339996337890625
+2024-03-19,Putin's Ukraine war ambitions on show at Crimea concert after election win,0.0,1,0.502,-2.4799957275390625
+2024-03-19,Blinken lauds 'extraordinary' expansion of defense ties with the Philippines amid China tensions,0.0,0,0.4639,-2.4799957275390625
+2024-03-19,Judge rules Reddit and YouTube must face lawsuits claiming they enabled Buffalo grocery mass shooter,0.0,1,0.5054,-2.4799957275390625
+2024-03-19,Groups blast conservatives' attempt to stop Smithsonian Latino internship,0.0,0,0.4182,-2.4799957275390625
+2024-03-19,Afghan refugee convicted of murder in case that shocked Albuquerque’s Muslim community,0.0,1,0.519,-2.4799957275390625
+2024-03-19,Some dating coaches online are pushing women to seek more traditional gender roles,0.0,0,0.4785,-2.4799957275390625
+2024-03-19,"In Cuba, hundreds take to the streets in rare protests as economic crisis deepens",0.0,0,0.4368,-2.4799957275390625
+2024-03-18,Kentucky House votes to defund DEI offices at public universities,1.0,1,0.514,10.229995727539062
+2024-03-18,Biden signs executive order to boost women's health research,1.0,1,0.6436,10.229995727539062
+2024-03-18,"Suspect in Oakland store killing is 13-year-old boy who committed another armed robbery, police say",1.0,1,0.5186,10.229995727539062
+2024-03-18,Health workers fear it's profits before protection as CDC revisits airborne transmission,1.0,0,0.4866,10.229995727539062
+2024-03-18,India to hold the world's biggest election starting April in over a month-long exercise,1.0,0,0.2837,10.229995727539062
+2024-03-18,Second man charged in theft of Judy Garland's 'Wizard of Oz' ruby slippers,1.0,0,0.4612,10.229995727539062
+2024-03-18,"North Korea resumes missile tests, raising tensions with rivals",1.0,0,0.4136,10.229995727539062
+2024-03-18,"Putin poised for a fifth term, White House weighs options if Israel defies Rafah warnings: Weekend Rundown",1.0,0,0.497,10.229995727539062
+2024-03-18,"Meet the Press - March 17, 2024",1.0,0,0.4731,10.229995727539062
+2024-03-18,In Miami with the world's first chief heat officer,1.0,0,0.4797,10.229995727539062
+2024-03-18,"Inflation seems stubborn, but people keep spending. What's going on?",1.0,1,0.5576,10.229995727539062
+2024-03-18,Trump says there will be a 'bloodbath' if he loses the election,1.0,0,0.4546,10.229995727539062
+2024-03-18,"Looking for leads, not love: Job seekers in China turn Tinder into a networking tool",1.0,0,0.4802,10.229995727539062
+2024-03-18,U.S. Marines join huge NATO training exercises in Norway,1.0,1,0.5312,10.229995727539062
+2024-03-18,What the National Association of Realtors' settlement means,1.0,1,0.548,10.229995727539062
+2024-03-18,"Two trials, 2 convictions: How the unusual case against Ethan Crumbley's parents ended in historic verdicts",1.0,1,0.556,10.229995727539062
+2024-03-18,Eva Longoria awarded $50 million for charity as part of Bezos annual prize,1.0,1,0.523,10.229995727539062
+2024-03-15,A Haitian woman escaped gunshots and terror in Port-au-Prince only to lose contact with her husband,1.0,1,0.5107,1.07000732421875
+2024-03-15,Nippon Steel defends U.S. Steel purchase after Biden opposes Japanese takeover,1.0,1,0.611,1.07000732421875
+2024-03-15,The U.S. wants ByteDance to sell TikTok. China is almost certainly going to refuse,1.0,1,0.526,1.07000732421875
+2024-03-15,Who could buy TikTok? Meet the people who could acquire the app,1.0,0,0.4858,1.07000732421875
+2024-03-15,Trump prepares to run a courtroom campaign: From the Politics Desk,1.0,1,0.524,1.07000732421875
+2024-03-15,"In countering China, U.S. sees a growing role for Japan",1.0,0,0.4583,1.07000732421875
+2024-03-15,Haitian Americans in Florida are desperate to hear from relatives amid violence,1.0,1,0.529,1.07000732421875
+2024-03-15,The Best Roku Devices of 2025,1.0,1,0.513,1.07000732421875
+2024-03-15,"Wholesale inflation rose 0.6% in February, much more than expected",1.0,0,0.4238,1.07000732421875
+2024-03-14,Kamala Harris seeks to shore up Latino voter support by touting economic gains,0.0,1,0.588,-6.9799957275390625
+2024-03-14,Bernie Sanders pushes bill for four-day workweek without loss of pay,0.0,0,0.4646,-6.9799957275390625
+2024-03-14,The Center for Autism and Related Disorders grew to 265 clinics. Then private equity took over,0.0,1,0.568,-6.9799957275390625
+2024-03-14,China accuses U.S. of 'bullying' after House votes to ban TikTok,0.0,0,0.4922,-6.9799957275390625
+2024-03-14,"Haiti crisis: What to know about Jimmy Chérizier, the officer-turned-gangster trying to seize control of the country",0.0,1,0.516,-6.9799957275390625
+2024-03-14,Concerns over U.S. TikTok ban escalate among creators and users after House bill passes,0.0,0,0.4922,-6.9799957275390625
+2024-03-14,QVC apologizes for email that said ‘You’ll love this bag longtime’,0.0,0,0.4639,-6.9799957275390625
+2024-03-14,Princess Kate's edited photo deepens the mistrust the palace hoped to quell,0.0,0,0.4697,-6.9799957275390625
+2024-03-13,"The Best Sleep Sacks of 2025, According to Experts",0.0,0,0.4866,-8.05999755859375
+2024-03-13,"13+ Best Caffeine Eye Creams of 2025, According to Experts",0.0,1,0.5166,-8.05999755859375
+2024-03-13,Jury in James Crumbley trial weighing fate of school shooter's father after closing arguments,0.0,0,0.4758,-8.05999755859375
+2024-03-13,"Restaurant blast in Hebei, China, kills 2",0.0,0,0.3718,-8.05999755859375
+2024-03-13,"House passes bill that could ban TikTok in the U.S., sending it to the Senate",0.0,0,0.4563,-8.05999755859375
+2024-03-13,Chuck Todd: The big missing piece in Congress' rushed TikTok debate,0.0,0,0.474,-8.05999755859375
+2024-03-13,A new generation of readers embraces bell hooks’ ‘All About Love’,0.0,0,0.409,-8.05999755859375
+2024-03-13,Trump's newfound opposition to a TikTok ban isn't swaying Republicans,0.0,1,0.5225,-8.05999755859375
+2024-03-12,"The Best Foot Peels in 2025 for Smooth, Soft Feet, According to Experts",0.0,0,0.4753,-0.230010986328125
+2024-03-12,"Inside the organized crime rings plaguing Ulta, T.J. Maxx, Walgreens and other retailers",0.0,1,0.5293,-0.230010986328125
+2024-03-12,Trump to rally for Bernie Moreno days before high-stakes Ohio Senate primary,0.0,1,0.5635,-0.230010986328125
+2024-03-12,Inflation report February 2024: 3.2% reading means interest rate cuts could be delayed,0.0,1,0.5073,-0.230010986328125
+2024-03-12,"Kirk Cousins to Atlanta, Saquon Barkley to Philadelphia among NFL's blockbuster signings",0.0,1,0.549,-0.230010986328125
+2024-03-12,"Housing Secretary Marcia Fudge is stepping down, the second Biden Cabinet member to leave the administration",0.0,1,0.536,-0.230010986328125
+2024-03-12,The 5 Best Streaming Devices of 2025 | NBC Select,0.0,1,0.524,-0.230010986328125
+2024-03-11,New $5 million ad campaign boosts House Democrats on health care,1.0,1,0.5073,2.4300079345703125
+2024-03-11,China’s congress ends with a show of unity behind Xi’s vision for national greatness,1.0,1,0.6084,2.4300079345703125
+2024-03-11,"Meet the Press - March 10, 2024",1.0,0,0.3838,2.4300079345703125
+2024-03-11,House Republicans consider a loan program for some Ukraine aid,1.0,0,0.4802,2.4300079345703125
+2024-03-11,Democrat running for Uvalde House seat blasts school shooting report,1.0,1,0.5635,2.4300079345703125
+2024-03-11,"Glistening buildings, crisp bed sheets and security worries: Inside Paris’ Olympic prep",1.0,1,0.503,2.4300079345703125
+2024-03-11,"Some attendees of frigid Chiefs game forced into amputations following severe frostbite, Kansas City hospital says",1.0,1,0.514,2.4300079345703125
+2024-03-08,Founder of D.C. LGBTQ nonprofit arrested on fraud and money laundering charges,0.0,1,0.5864,-3.30999755859375
+2024-03-08,Venezuela sidelines any opponents of Maduro as it announces election date,0.0,1,0.5073,-3.30999755859375
+2024-03-08,Biden's State of the Union and bill threatening to ban TikTok advances: Morning Rundown,0.0,0,0.4316,-3.30999755859375
+2024-03-08,"US added 275,000 jobs in February as labor market stays hot",0.0,0,0.4707,-3.30999755859375
+2024-03-08,Why Biden is making ‘freedom’ a central campaign focus: From the Politics Desk,0.0,1,0.593,-3.30999755859375
+2024-03-08,U.S. food drops over Gaza are criticized as too little and ineffective,0.0,1,0.5283,-3.30999755859375
+2024-03-08,Aldi to add 800 new U.S. grocery stores by 2028,0.0,1,0.621,-3.30999755859375
+2024-03-08,"Woman dies after Brazilian butt lift procedure performed by Miami doctor who wasn't allowed to operate, lawsuit alleges",0.0,0,0.4685,-3.30999755859375
+2024-03-08,Biden to focus on 'freedom' in State of the Union — a central theme of his re-election campaign,0.0,1,0.5156,-3.30999755859375
+2024-03-07,'Wake up': Biden delivers fiery State of the Union — sparring with critics and swiping at Trump,1.0,1,0.5435,2.1100006103515625
+2024-03-07,Ex-Google engineer charged with stealing AI trade secrets while working with Chinese companies,1.0,0,0.45,2.1100006103515625
+2024-03-07,Tennessee vaccine law pits parental rights against public health,1.0,0,0.4414,2.1100006103515625
+2024-03-07,"Microplastics in plaque lining major blood vessel linked to heart attack risk, study suggests",1.0,0,0.38,2.1100006103515625
+2024-03-07,"U.S. companies must tell public about their climate risks, SEC rules",1.0,1,0.56,2.1100006103515625
+2024-03-07,"As the NRA struggles, the gun lobby has a new leader in D.C.",1.0,1,0.5664,2.1100006103515625
+2024-03-07,Patients struggle to get medication after cyberattack on Change Healthcare,1.0,1,0.5317,2.1100006103515625
+2024-03-07,'So darn easy': IRS' free Direct File pilot program already a hit with early users,1.0,0,0.4927,2.1100006103515625
+2024-03-07,"The best diffusers for curly hair, according to experts",1.0,1,0.531,2.1100006103515625
+2024-03-06,"Interest rates will likely start coming down this year — but not clear when, Powell says",0.0,1,0.6133,-4.200012207031278
+2024-03-06,"California Senate primary winners: Adam Schiff,  Steve Garvey advance to November ballot",0.0,1,0.587,-4.200012207031278
+2024-03-06,Latinos agree things are bad on the border but differ from non-Hispanics on solutions,0.0,0,0.4307,-4.200012207031278
+2024-03-06,Dartmouth men's basketball team votes 13-2 in favor of first labor union for college athletes,0.0,1,0.619,-4.200012207031278
+2024-03-06,Supergoop Protec(tint) Daily SPF Tint SPF 50: Review,0.0,1,0.5137,-4.200012207031278
+2024-03-05,"Senate GOP race to succeed McConnell takes shape with Thune in, Barrasso out",0.0,0,0.4866,-7.399993896484347
+2024-03-05,Biden to launch task force to crack down on 'unfair and illegal pricing' amid rising inflation,0.0,1,0.569,-7.399993896484347
+2024-03-05,"One person killed after huge fire ignites Michigan warehouse, raining debris 'as far as a mile away,' police say",0.0,1,0.58,-7.399993896484347
+2024-03-05,Philippines calls out China for ‘unprovoked coercion’ in South China Sea,0.0,0,0.4124,-7.399993896484347
+2024-03-05,GOP megadonors finance major campaign against potential House rabble-rousers,0.0,1,0.5527,-7.399993896484347
+2024-03-05,Missouri Christian boarding school founder and wife charged with kidnapping after reports of runaways,0.0,1,0.543,-7.399993896484347
+2024-03-05,"The best products for psoriasis, according to experts",0.0,0,0.465,-7.399993896484347
+2024-03-04,"In Mexico, organized crime attacks against local candidates raise fears ahead of election",0.0,1,0.579,-14.5
+2024-03-04,5 issues ahead of Mexico's presidential election,0.0,1,0.539,-14.5
+2024-03-04,"Bitcoin prices hit all-time high, soaring to nearly $69,000",0.0,0,0.4714,-14.5
+2024-03-04,China National People’s Congress: Premier’s news conference scrapped,0.0,1,0.558,-14.5
+2024-03-04,"Meet the Press - March 3, 2024",0.0,0,0.474,-14.5
+2024-03-04,How hospitals are fighting to keep their former doctors from seeing patients,0.0,1,0.534,-14.5
+2024-03-04,Should creators be interviewing celebrities at red carpet events? Depends on who you ask.,0.0,0,0.4915,-14.5
+2024-03-04,A ‘cowboy ski town’ where high earners can’t afford a home faces a housing battle,0.0,1,0.5176,-14.5
+2024-03-04,Shehbaz Sharif elected Pakistan’s prime minister for second term,0.0,1,0.5103,-14.5
+2024-03-04,"Texans reeling from wildfires assess catastrophic damages, impact on cattle industry",0.0,1,0.5854,-14.5
+2024-03-04,Kari Lake clarifies her stance on abortion,0.0,0,0.458,-14.5
+2024-03-04,Black women are venting frustration with the Black hair industry on TikTok and Instagram,0.0,0,0.488,-14.5
+2024-03-04,All the U.S. states that have introduced or passed anti-DEI bills: Map,0.0,0,0.4746,-14.5
+2024-03-04,Lawyers in Musk pay case seek fee of $6 billion in Tesla stock,0.0,1,0.5063,-14.5
+2024-03-04,Video helped convict Michelle Troconis in Jennifer Dulos’ death,0.0,1,0.52,-14.5
+2024-03-04,Baby Foot Original Exfoliation Foot Peel Review,0.0,0,0.4895,-14.5
+2024-03-04,Green Dot Bank gets proposed Federal Reserve order over allegedly faulty consumer practices,0.0,1,0.53,-14.5
+2024-03-04,"NYCB loan losses, deposit levels worry Wall Street",0.0,0,0.4802,-14.5
+2024-03-01,Outages from Change Healthcare cyberattack causing financial ‘mess’ for doctors,1.0,0,0.4866,0.7599945068359375
+2024-03-01,New Black Muslim group wants to put pressure on Biden — but not abandon him,1.0,0,0.4592,0.7599945068359375
+2024-03-01,"India ‘easily’ the fastest-growing economy, IMF executive director says, as GDP growth blows past estimates",1.0,0,0.3606,0.7599945068359375
+2024-03-01,"Trump Media sued by co-founders ahead of DWAC merger, potential setback for lucrative deal",1.0,1,0.546,0.7599945068359375
+2024-03-01,‘Dune: Part Two’ looks to end box office drought with $80 million opening,1.0,1,0.5547,0.7599945068359375
+2024-02-29,Oprah to leave WeightWatchers board of directors,0.0,0,0.4697,-0.1599884033203125
+2024-02-29,"Man to plead guilty in 'killing spree' of birds, including bald eagles, for feathers prized by tribes",0.0,0,0.4622,-0.1599884033203125
+2024-02-29,2 charged with stealing $20 million in SNAP benefits from NYC bodega,0.0,0,0.4795,-0.1599884033203125
+2024-02-29,Biden officials weigh giving Ukraine weapons without replacing U.S. stocks right away or waiting for Congress funds,0.0,1,0.5327,-0.1599884033203125
+2024-02-28,Marianne Williamson unsuspends her presidential campaign after placing 3rd in Michigan,1.0,0,0.4062,2.3099975585937784
+2024-02-28,Supreme Court hearing over 'bump stocks' ban and Texas Panhandle wildfire: Morning Rundown,1.0,0,0.4592,2.3099975585937784
+2024-02-28,Supreme Court appears torn over challenge to gun 'bump stocks',1.0,0,0.4663,2.3099975585937784
+2024-02-28,Chuck Todd: Why the third party window may have closed for 2024,1.0,1,0.561,2.3099975585937784
+2024-02-28,"In South Korea, world’s lowest fertility rate plunges again in 2023",1.0,0,0.4172,2.3099975585937784
+2024-02-28,Party may be over for Russians in Sri Lanka after ‘whites only’ event fuels outrage,1.0,1,0.5293,2.3099975585937784
+2024-02-28,"China doubles down on national security, expanding its state secrets law",1.0,0,0.3757,2.3099975585937784
+2024-02-28,"Amid Cuban economic struggles, one entrepreneur lowers prices with scrap metal trailers",1.0,0,0.4604,2.3099975585937784
+2024-02-27,PlayStation's Sony to cut 900 jobs amid brutal year for video game industry layoffs,1.0,1,0.5234,0.33000183105463066
+2024-02-27,Sunbasket Meal Delivery Service Review 2025,1.0,0,0.455,0.33000183105463066
+2024-02-27,‘Free Palestine’ protesters join the 2024 Lunar New Year parade in NYC,1.0,1,0.596,0.33000183105463066
+2024-02-26,Texas man allegedly made $1.76 million from insider trading by eavesdropping on wife's work calls,1.0,0,0.4707,7.429992675781278
+2024-02-26,Not since the 1930s has isolationist sentiment gained such prominence in the U.S.,1.0,1,0.546,7.429992675781278
+2024-02-26,Berkshire Hathaway cash pile surges to record,1.0,0,0.4365,7.429992675781278
+2024-02-26,U.S. and South Korea fly warplanes in interception drills after North Korea’s missile test,1.0,1,0.5015,7.429992675781278
+2024-02-26,Moon lander tipped sideways on lunar surface but ‘alive and well’,1.0,0,0.4749,7.429992675781278
+2024-02-26,Biden’s campaign plans to recognize a union organizing effort from its staff,1.0,0,0.4294,7.429992675781278
+2024-02-26,"120,000 gun safes recalled as U.S. warns children were able to open them",1.0,1,0.503,7.429992675781278
+2024-02-26,"Chinese migrants in L.A. created their own economy amid exclusion laws, research shows",1.0,1,0.5522,7.429992675781278
+2024-02-23,"Chinese police are working in Kiribati, Hawaii’s Pacific neighbor",0.0,0,0.4246,-5.440002441406222
+2024-02-23,Schumer leads Democratic delegation to Ukraine amid standoff over military aid,0.0,0,0.378,-5.440002441406222
+2024-02-23,Democrats brawl in California Senate race as progressives fear a lockout,0.0,1,0.5337,-5.440002441406222
+2024-02-23,"Vice Media plans to cut hundreds of jobs, stop publishing on flagship website",0.0,0,0.4895,-5.440002441406222
+2024-02-23,"Puerto Rico short-term rentals spike comes at a cost, report finds",0.0,0,0.4,-5.440002441406222
+2024-02-23,"Republicans invite Latin America's Nayib Bukele, Javier Milei to CPAC",0.0,0,0.4453,-5.440002441406222
+2024-02-22,"Japan’s Nikkei crosses 39,000 as robust earnings, investor-friendly measures drive risk-on sentiment",1.0,0,0.4036,2.6399993896484375
+2024-02-22,Travis Kelce arrives in Australia ahead of Taylor Swift concerts,1.0,1,0.5864,2.6399993896484375
+2024-02-22,Rep. Mike Gallagher meets with President Tsai Ing-wen in Taiwan,1.0,1,0.5127,2.6399993896484375
+2024-02-21,"After Navalny’s death, can widow Yulia Navalnaya lead Russia's opposition against Putin?",1.0,1,0.618,1.0100097656249432
+2024-02-21,"Capital One-Discover merger could put a bigger squeeze on credit card users, experts warn",1.0,0,0.4172,1.0100097656249432
+2024-02-21,The top six types of chocolate experts want you to know about,1.0,0,0.403,1.0100097656249432
+2024-02-21,Mexico says it's addressing the high number of asylum requests to Canada,1.0,0,0.3762,1.0100097656249432
+2024-02-20,Colorado student arrested for murder and Trump compares legal woes to Alexei Navalny's death: Morning Rundown,0.0,0,0.419,-6.190002441406222
+2024-02-20,"Two years after the Russian invasion, land mines plague one-third of Ukraine",0.0,0,0.3984,-6.190002441406222
+2024-02-20,2024 will see more elections than any other year in history. Many will be unfair.,0.0,0,0.4905,-6.190002441406222
+2024-02-20,Chinese coast guard boards Taiwanese tourist boat as it steps up patrols,0.0,0,0.4795,-6.190002441406222
+2024-02-20,Capital One to acquire Discover Financial Services in $35.3 billion all-stock deal,0.0,1,0.5713,-6.190002441406222
+2024-02-20,"Meet the Press - February 18, 2024",0.0,0,0.4866,-6.190002441406222
+2024-02-20,Biden’s allies are stepping forward to vouch for him amid age questions,0.0,0,0.4795,-6.190002441406222
+2024-02-20,Larry Vickers: gun influencer still platform after guilty plea,0.0,0,0.4163,-6.190002441406222
+2024-02-20,"Millennials, Gen Z getting used to living on a financial cliff",0.0,0,0.4597,-6.190002441406222
+2024-02-20,"U.S. funding delay could create opening for China, Pacific Island nations warn",0.0,1,0.564,-6.190002441406222
+2024-02-20,NBA's Steph Curry beats WNBA's Sabrina Ionescu in first head-to-head 3-point challenge,0.0,0,0.4443,-6.190002441406222
+2024-02-20,National Black Movie Day is a celebration — and a call for action,0.0,0,0.497,-6.190002441406222
+2024-02-20,Target unveils dealworthy brand costing $10 or less,0.0,0,0.4905,-6.190002441406222
+2024-02-20,"Microsoft, Google, Meta pledge action on AI election risks",0.0,0,0.4216,-6.190002441406222
+2024-02-16,Mexico and FIFA go back to sports court in decadelong dispute over soccer fans’ gay slurs,0.0,1,0.523,-0.5
+2024-02-16,"Black families are holding onto ancestral land for generations, despite developers’ efforts to take it",0.0,0,0.495,-0.5
+2024-02-16,"Federal regulators are probing whether Cash App leaves door open to money launderers, terrorists",0.0,0,0.4421,-0.5
+2024-02-16,U.K. by-election defeats: Rishi Sunak blow as Labour surges against Tories,0.0,1,0.593,-0.5
+2024-02-16,What Trump is promising supporters he’d do in a second term,0.0,0,0.4656,-0.5
+2024-02-16,Do lip balms dry out your lips?,0.0,0,0.4524,-0.5
+2024-02-15,Joe Manchin floats Mitt Romney as a potential running mate as he weighs a presidential bid,1.0,0,0.4668,11.739990234375
+2024-02-15,Bose Ultra Open Earbuds review,1.0,0,0.4795,11.739990234375
+2024-02-15,"TikTok, Facebook and YouTube sued by New York City for alleged harm to kids’ mental health",1.0,0,0.419,11.739990234375
+2024-02-15,Putin says Biden is better for Russia than a Trump presidency,1.0,0,0.4373,11.739990234375
+2024-02-15,Japan is no longer the world’s third-largest economy as it slips into recession,1.0,0,0.3657,11.739990234375
+2024-02-15,"Cisco says it’s cutting 5% of global workforce, amounting to over 4,000 jobs",1.0,0,0.426,11.739990234375
+2024-02-15,Higher projected Latino voter turnout could swing crucial battleground states,1.0,1,0.543,11.739990234375
+2024-02-15,Russell Simmons accused of rape in lawsuit filed by former Def Jam executive,1.0,0,0.423,11.739990234375
+2024-02-15,Thousands of ride-share drivers strike at major U.S. airports on Valentine’s Day,1.0,0,0.4822,11.739990234375
+2024-02-15,Don't freak out about the stock market's inflation freakout,1.0,0,0.4966,11.739990234375
+2024-02-14,"William 'Bill' Post, inventor of Pop-Tarts, dies at 96",1.0,1,0.542,4.690002441406278
+2024-02-14,South Korea says North Korea has fired cruise missiles in latest weapons test,1.0,0,0.457,4.690002441406278
+2024-02-14,Why the Year of the Dragon doesn’t bode well for China’s declining population,1.0,0,0.4583,4.690002441406278
+2024-02-14,Nordstrom's winter sale 2024: The best deals happening now,1.0,1,0.579,4.690002441406278
+2024-02-14,The Senate passed critical aid for Ukraine and Israel. Here’s what the House could do next.,1.0,1,0.5054,4.690002441406278
+2024-02-14,"Dow tumbles 500 points, posts worst day since March 2023 after hot inflation report",1.0,0,0.2043,4.690002441406278
+2024-02-14,Disneyland characters and parades cast members launch unionization effort,1.0,0,0.4539,4.690002441406278
+2024-02-14,"Venezuelan human rights attorney Rocío San Miguel detained, whereabouts unknown.",1.0,1,0.5425,4.690002441406278
+2024-02-13,"For rights activist in Greece, same-sex marriage recognition follows decades of struggle",0.0,1,0.506,-4.110000610351591
+2024-02-13,Judge dismisses families’ lawsuits against Harvard over morgue scandal,0.0,0,0.436,-4.110000610351591
+2024-02-13,Senate passes Israel and Ukraine aid and New York City winter weather: Morning Rundown,0.0,0,0.4697,-4.110000610351591
+2024-02-13,Inflation rate January 2024 lands at 3.1%: How the economy is doing now,0.0,0,0.4858,-4.110000610351591
+2024-02-13,"Washington Capitals, Wizards arena proposal highlights Gov. Youngkin’s divided Virginia government",0.0,0,0.4563,-4.110000610351591
+2024-02-13,Pope and Argentina's President Milei seem to hit it off despite rocky start,0.0,0,0.4302,-4.110000610351591
+2024-02-13,The 9 Best Pizza Stones of 2025,0.0,0,0.4854,-4.110000610351591
+2024-02-12,Trump's NATO comments prompt Europe to reexamine Russia threat,0.0,0,0.4802,-5.44000244140625
+2024-02-12,"Feeling betrayed, Trump wants a second administration stocked with loyalists",0.0,1,0.541,-5.44000244140625
+2024-02-12,"Jeff Bezos sells nearly 12 million Amazon shares worth at least $2 billion, with more to come",0.0,0,0.4,-5.44000244140625
+2024-02-12,Super Bowl fans are flooding Vegas with cash. Don’t bet on a big windfall for workers.,0.0,1,0.5825,-5.44000244140625
+2024-02-12,"As electric vehicle demand slows, workers caught in the middle face an uncertain future",0.0,0,0.4922,-5.44000244140625
+2024-02-12,"Imran Khan’s party wants to form government, demands release of full results in Pakistan’s election",0.0,1,0.6377,-5.44000244140625
+2024-02-12,49'ers Brock Purdy's unlikely journey reshapes NFL expectations and takes him from an overlooked prospect to Super Bowl starter,0.0,1,0.581,-5.44000244140625
+2024-02-12,How to get back on track with your New Year’s resolutions,0.0,0,0.3682,-5.44000244140625
+2024-02-12,The thirst for Stanley cups raises questions on how green stainless steel water bottles really are,0.0,0,0.4707,-5.44000244140625
+2024-02-12,Taylor Swift ‘Eras Tour’ takes over Japan as fans watch out for Super Bowl appearance,0.0,0,0.4875,-5.44000244140625
+2024-02-12,Louisiana lawmaker's bill would allow nitrogen gas executions,0.0,1,0.552,-5.44000244140625
+2024-02-12,"How to choose the best salt for cooking, according to chefs",0.0,0,0.4658,-5.44000244140625
+2024-02-12,"S&P 500 closes above 5,000 for first time ever, notches fifth straight winning week",0.0,1,0.5464,-5.44000244140625
+2024-02-12,"Black women are six times more likely to be killed than white women, data shows",0.0,0,0.4116,-5.44000244140625
+2024-02-12,Haitian food truck owners sue town alleging anti-immigrant harassment,0.0,1,0.545,-5.44000244140625
+2024-02-09,Imran Khan was supposed to be shut out of Pakistan’s election. His supporters are in the lead.,1.0,1,0.5864,4.010009765625028
+2024-02-09,More voters are rating Trump's presidency as 'better than expected' in hindsight,1.0,0,0.4229,4.010009765625028
+2024-02-09,North Korea’s Kim says he has no desire for talks and repeats a threat to destroy South Korea if provoked,1.0,0,0.4294,4.010009765625028
+2024-02-09,"22 best new products in February 2024: Amazon, Apple, Bose and Owala",1.0,0,0.461,4.010009765625028
+2024-02-09,Fungus that sparked deadly meningitis outbreak aggressively attacked the brainstem,1.0,0,0.4539,4.010009765625028
+2024-02-09,Democrats worry border will overshadow abortion in 2024 elections,1.0,1,0.5034,4.010009765625028
+2024-02-09,Alabama station in disbelief after 200-foot radio tower stolen,1.0,0,0.4536,4.010009765625028
+2024-02-08,Supreme Court to consider Trump ballot issue and U.S. kills militia commander: Morning Rundown,1.0,0,0.3962,1.979995727539034
+2024-02-08,"Black organizations rally to counter anti-DEI rhetoric from Elon Musk, Bill Ackman and other outspoken leaders",1.0,0,0.497,1.979995727539034
+2024-02-08,Pakistan suspends mobile services and closes land borders amid tense election,1.0,1,0.525,1.979995727539034
+2024-02-08,Marianne Williamson ends long-shot presidential bid as Democratic challenger,1.0,0,0.4177,1.979995727539034
+2024-02-08,"Snoop Dogg, Master P allege Walmart, Post Foods hid their cereal in sabotage plot",1.0,1,0.589,1.979995727539034
+2024-02-08,Sen. Bob Casey braces for 'toughest' re-election battle yet in Pennsylvania,1.0,1,0.5347,1.979995727539034
+2024-02-07,A conservative Latino group urges parties to reject extreme politics. Is that possible?,1.0,1,0.54,2.479995727539091
+2024-02-07,Biden advisers ready to go on offense in the immigration fight after the bipartisan border bill's demise,1.0,1,0.564,2.479995727539091
+2024-02-07,"Sweden ends Nord Stream sabotage probe, hands evidence to Germany",1.0,1,0.56,2.479995727539091
+2024-02-07,"Russia’s isolation is forcing it to look to China for support in the Arctic, raising U.S. concerns",1.0,1,0.504,2.479995727539091
+2024-02-07,Blasts near Pakistan candidates’ offices kill at least 24 on eve of election,1.0,1,0.526,2.479995727539091
+2024-02-07,Long-running listeria outbreak that killed 2 is linked to cotija and queso fresco from a California business,1.0,0,0.4922,2.479995727539091
+2024-02-07,"The Best Cycling Shoes of 2025, According to Experts",1.0,0,0.4436,2.479995727539091
+2024-02-07,Frustrations grow as ADHD medication shortage continues,1.0,0,0.4436,2.479995727539091
+2024-02-07,"Exposure to police violence linked to poor sleep in Black adults, study finds",1.0,0,0.4592,2.479995727539091
+2024-02-07,Michigan activists launch campaign urging Democrats to vote against Biden in the primary,1.0,1,0.5024,2.479995727539091
+2024-02-06,How a U.S. Embassy post about giraffes became an outlet for despair about China’s tumbling stock markets,1.0,0,0.4802,4.040008544921875
+2024-02-06,How a historic Lahaina neighborhood became ‘ground zero’ for the Maui wildfire,1.0,1,0.5376,4.040008544921875
+2024-02-06,Mortgage rates jump back over 7% as stronger economic data rolls in,1.0,1,0.6514,4.040008544921875
+2024-02-05,The 2024 gender gap grows — and not in Biden’s direction,0.0,0,0.4353,-6.850006103515625
+2024-02-05,How the right learned to stop worrying and love John Fetterman,0.0,0,0.423,-6.850006103515625
+2024-02-05,Taylor Swift makes Grammys history with 'Midnights' album of the year win,0.0,0,0.4905,-6.850006103515625
+2024-02-05,"Meet the Press - February 4, 2024",0.0,0,0.4563,-6.850006103515625
+2024-02-05,"Ex-Trump administration official shot in Washington, D.C., carjacking spree dies",0.0,0,0.4714,-6.850006103515625
+2024-02-05,"One year after East Palestine train derailment, Norfolk Southern CEO says 'there's more work to be done'",0.0,1,0.539,-6.850006103515625
+2024-02-05,Transgender bathroom bills are back. Does the nation care?,0.0,0,0.492,-6.850006103515625
+2024-02-05,The great American jobs machine keeps revving in an election year,0.0,0,0.4731,-6.850006103515625
+2024-02-05,"In 'white' Argentina, TV star Martín Ku, who's Argentine Asian, spurs reality check on race",0.0,1,0.5215,-6.850006103515625
+2024-02-05,"When will interest rates fall in 2024? Where to look, according to economists.",0.0,0,0.4758,-6.850006103515625
+2024-02-02,"Latino casino, service workers in Nevada fear AI could replace them",0.0,1,0.5293,-0.9499969482422443
+2024-02-02,"U.S. economy added 353,000 jobs in January, much better than expected",0.0,0,0.3667,-0.9499969482422443
+2024-02-02,These women support Trump and abortion rights — and feel they don't have to choose,0.0,1,0.536,-0.9499969482422443
+2024-02-02,"Anxious Cubans brace for price hikes, austerity measures",0.0,0,0.4688,-0.9499969482422443
+2024-02-02,"Taylor Swift, Drake’s music removed from TikTok by Universal Group: What happens when you can’t use songs",0.0,1,0.518,-0.9499969482422443
+2024-02-01,The E.U. agrees on a new $54 billion aid package for Ukraine despite Hungary’s veto threat,1.0,0,0.4768,1.5700073242187784
+2024-02-01,Angry farmers take protest to key E.U. summit in tractors,1.0,1,0.536,1.5700073242187784
+2024-02-01,Man who destroyed Satanic Temple altar in Iowa charged under hate crime law,1.0,1,0.503,1.5700073242187784
+2024-02-01,"Man who served in Trump administration wounded in deadly Washington, D.C., carjacking spree",1.0,1,0.518,1.5700073242187784
+2024-02-01,Machu Picchu tourism suffering after protests against new ticketing system,1.0,0,0.498,1.5700073242187784
+2024-02-01,FCC moves to outlaw most AI-generated robocalls,1.0,0,0.4558,1.5700073242187784
+2024-02-01,"Wizz, a Tinder-like app aimed at teens, removed from Apple and Google stores",1.0,0,0.444,1.5700073242187784
+2024-01-31,"Federal Reserve holds interest rates steady as consumer confidence improves, inflation slows",0.0,0,0.4915,-4.300003051757841
+2024-01-31,FBI director warns Chinese hackers aim to 'wreak havoc' on U.S. critical infrastructure,0.0,0,0.4514,-4.300003051757841
+2024-01-31,Universal Music Group to remove songs from TikTok,0.0,1,0.542,-4.300003051757841
+2024-01-31,Judge throws out Elon Musk's $56 billion Tesla pay package,0.0,0,0.491,-4.300003051757841
+2024-01-31,"Ohio reverses local menthol tobacco bans, infuriating doctors",0.0,0,0.4512,-4.300003051757841
+2024-01-31,"Walmart managers can now earn over $400,000 a year, no college required, thanks to stock grants",0.0,0,0.4688,-4.300003051757841
+2024-01-30,"Yu & Me Books, Asian American-owned bookstore in NYC’s Chinatown, reopens after fire",1.0,1,0.544,0.6600036621094034
+2024-01-30,Video shows woman clinging to hood of alleged dognappers' car in L.A.,1.0,0,0.4785,0.6600036621094034
+2024-01-29,"House eyes vote this week on child tax credit bill, which faces some speed bumps",1.0,1,0.59,7.67999267578125
+2024-01-29,Dying thief who stole ‘Wizard of Oz’ ruby slippers from Minnesota museum will likely avoid prison,1.0,1,0.601,7.67999267578125
+2024-01-29,"Meet the Press - January 28, 2024",1.0,0,0.4866,7.67999267578125
+2024-01-29,Right-wing makes airlines culture war targets over DEI criticism,1.0,1,0.521,7.67999267578125
+2024-01-29,"Fundraiser in the works with Bill Clinton, Barack Obama and Biden",1.0,1,0.554,7.67999267578125
+2024-01-29,White House hopes rise that a strong economy will sell itself,1.0,1,0.562,7.67999267578125
+2024-01-29,Tax Day 2024: A silver lining from high mortgage interest rates: Bigger deductions on this year’s taxes,1.0,0,0.422,7.67999267578125
+2024-01-29,Beijing steps up military pressure on Taiwan after the U.S. and China announce talks,1.0,0,0.4885,7.67999267578125
+2024-01-29,North Carolina teacher's financial lessons go viral on TikTok,1.0,0,0.4775,7.67999267578125
+2024-01-26,Biden hits pause on approvals of liquified natural gas exports,1.0,0,0.4321,0.6199951171875
+2024-01-26,Biden takes digs at Trump in Midwest trip promoting infrastructure projects,1.0,1,0.579,0.6199951171875
+2024-01-26,Congress wants to ban China's largest genomics firm from doing business in the U.S. Here's why.,1.0,1,0.51,0.6199951171875
+2024-01-26,15 Best Night Creams of 2025 | NBC Select,1.0,1,0.521,0.6199951171875
+2024-01-26,Skin Care Glossary: The Essential Guide to Popular Ingredients,1.0,0,0.4294,0.6199951171875
+2024-01-26,"The economy is doing better than expected. Your 401(k) probably is, too.",1.0,1,0.573,0.6199951171875
+2024-01-26,"7 Best Face Oils for Dry Skin in 2025, According to Experts",1.0,0,0.4639,0.6199951171875
+2024-01-25,"The U.S. economy grew at a 3.3% pace in the fourth quarter, much better than expected",0.0,1,0.5483,-25.199996948242188
+2024-01-25,Jersey Shore town trying not to lose the man vs. nature fight on its eroded beaches,0.0,0,0.4795,-25.199996948242188
+2024-01-25,Do Stanley cups contain lead or pose a risk of lead poisoning? Experts weigh in,0.0,0,0.498,-25.199996948242188
+2024-01-25,'Wake up': Senate hearing considers threat of climate change on 'blue economy',0.0,0,0.419,-25.199996948242188
+2024-01-24,United Auto Workers union endorses Biden for president,0.0,0,0.4395,-1.30999755859375
+2024-01-24,How to use ceramides in your skin care routine,0.0,1,0.555,-1.30999755859375
+2024-01-24,"EBay to eliminate about 1,000 jobs, or 9% of full-time workforce",0.0,0,0.4604,-1.30999755859375
+2024-01-24,P&G’s beauty sales hurt by an unlikely headwind: A wastewater release in Japan,0.0,1,0.5376,-1.30999755859375
+2024-01-24,China’s human rights record is scrutinized at U.N. meeting,0.0,0,0.4482,-1.30999755859375
+2024-01-24,Alaska Airlines CEO: We found 'many' loose bolts on Boeing 737 Max 9 planes,0.0,1,0.5938,-1.30999755859375
+2024-01-24,Nikki Haley fights to prove her conservative credentials as anti-Trump moderates rally to her side,0.0,1,0.5034,-1.30999755859375
+2024-01-24,Atomic scientists keep ‘Doomsday Clock’ as close to midnight as ever,0.0,0,0.404,-1.30999755859375
+2024-01-23,"12 Best Cleansers for Dry Skin, According to Dermatologists",1.0,1,0.506,0.339996337890625
+2024-01-23,The trial of a Honolulu businessman is providing a possible glimpse of Hawaii’s underworld,1.0,0,0.4802,0.339996337890625
+2024-01-23,Trump plays a starring role in California Senate debate as four candidates clash,1.0,0,0.4985,0.339996337890625
+2024-01-23,Colorado pastor accused of pocketing $1.3M in crypto scheme says 'Lord told us to',1.0,1,0.5435,0.339996337890625
+2024-01-23,The average pay at Walmart is going up,1.0,1,0.5186,0.339996337890625
+2024-01-22,Landslide buries 47 people in southwestern China,0.0,0,0.4302,-3.3899993896484375
+2024-01-22,Trump’s Sunday rally setting: A New Hampshire city that’s picked the GOP winner for 70 years,0.0,1,0.5425,-3.3899993896484375
+2024-01-22,"Meet the Press - January 21, 2024",0.0,1,0.514,-3.3899993896484375
+2024-01-22,Rare video from North Korea shows teens sentenced to hard labor for watching K-dramas,0.0,0,0.45,-3.3899993896484375
+2024-01-22,"Ava DuVernay gets candid about making her latest film, ‘Origin’",0.0,0,0.4822,-3.3899993896484375
+2024-01-22,"Americans are feeling optimistic about the economy again, with some exceptions",0.0,1,0.619,-3.3899993896484375
+2024-01-22,Biden aides give lawmakers grim assessment of Ukraine without more aid,0.0,0,0.492,-3.3899993896484375
+2024-01-22,"S&P 500 hits all-time high, surpassing previous record set in 2022",0.0,1,0.517,-3.3899993896484375
+2024-01-22,"How Venezuelan immigrants are supporting right-wing candidates, shaping U.S. politics landscape",0.0,1,0.5576,-3.3899993896484375
+2024-01-19,Long Covid study reveals major insights on a potential cause,1.0,0,0.4417,0.30999755859375
+2024-01-19,Purina says pet food is safe as rumors about sick animals spread,1.0,0,0.44,0.30999755859375
+2024-01-18,"At Davos, an art installation looks to bring people closer to nature with a little help from AI",0.0,0,0.3933,-3.6699981689453125
+2024-01-18,"Disinformation poses an unprecedented threat in 2024, and the U.S. isn't ready",0.0,0,0.418,-3.6699981689453125
+2024-01-18,U.S. appeals court blocks Texas law that could ban or restrict library books,0.0,0,0.4563,-3.6699981689453125
+2024-01-18,Explosion at a fireworks factory in rural Thailand kills about 20 people,0.0,0,0.495,-3.6699981689453125
+2024-01-18,Rising Latino suicide rates worry community leaders,0.0,1,0.5264,-3.6699981689453125
+2024-01-18,Frustrations between Biden and Israeli PM Netanyahu mount,0.0,1,0.576,-3.6699981689453125
+2024-01-18,Blinken switches planes in Zurich after first Boeing aircraft is grounded over an oxygen leak,0.0,1,0.5327,-3.6699981689453125
+2024-01-18,U.S. declares Houthi rebel group a terrorist organization,0.0,0,0.4556,-3.6699981689453125
+2024-01-18,Generative AI dominates Davos discussions as companies focus on accuracy,0.0,0,0.3813,-3.6699981689453125
+2024-01-17,Apple overtakes Samsung as top seller of smartphones,0.0,0,0.338,-4.360000610351534
+2024-01-17,China’s population drops for a second year despite government push for more babies,0.0,1,0.513,-4.360000610351534
+2024-01-17,"China misses fourth-quarter GDP estimates, resumes posting youth unemployment data",0.0,0,0.2947,-4.360000610351534
+2024-01-17,"AI fever takes over Davos, pushing crypto aside as the new cool kid on the block",0.0,1,0.514,-4.360000610351534
+2024-01-17,The 7 Best Toaster Ovens to Shop in 2025 | NBC Select,0.0,1,0.504,-4.360000610351534
+2024-01-16,Asa Hutchinson drops out of the 2024 presidential race,1.0,0,0.499,1.020004272460909
+2024-01-16,"Who is Guatemala's new president, Bernardo Arévalo?",1.0,1,0.555,1.020004272460909
+2024-01-16,Zelenskyy in Davos as he rallies support for Ukraine war against Russia,1.0,1,0.5454,1.020004272460909
+2024-01-16,Trump damages trial gets underway in E. Jean Carroll defamation case with former president in courtroom,1.0,0,0.4368,1.020004272460909
+2024-01-16,"On YouTube, climate denialism takes a turn",1.0,0,0.369,1.020004272460909
+2024-01-16,"North Korea will no longer pursue reconciliation with South, Kim Jong Un says",1.0,0,0.4697,1.020004272460909
+2024-01-16,Road to the Iowa caucus: What we learned from interviewing hundreds of Iowa residents,1.0,0,0.484,1.020004272460909
+2024-01-16,"U.S. ignored warnings about Houthi threat, Yemeni leader says",1.0,1,0.5376,1.020004272460909
+2024-01-16,U.S. delegation meets with Taiwan’s next president; Nauru switches ties to China,1.0,1,0.5566,1.020004272460909
+2024-01-16,U.S. tech companies prepare for drone attacks with new defenses,1.0,0,0.423,1.020004272460909
+2024-01-16,John Kerry is stepping down as U.S. climate envoy,1.0,1,0.547,1.020004272460909
+2024-01-16,'Mean Girls' movie: All the major Easter eggs and cameos,1.0,1,0.581,1.020004272460909
+2024-01-16,"Taiwan election: Vice President Lai wins vote, defying China",1.0,1,0.584,1.020004272460909
+2024-01-16,Country rocker Jelly Roll pushes for new anti-fentanyl legislation at Senate hearing,1.0,0,0.3982,1.020004272460909
+2024-01-16,DOJ to seek death penalty against white supremacist who killed 10 people at Buffalo Tops,1.0,1,0.5645,1.020004272460909
+2024-01-16,Citigroup is cutting 10% of its workforce in CEO Jane Fraser's corporate overhaul,1.0,1,0.5825,1.020004272460909
+2024-01-12,"The ‘Worst in Show’ CES products, according to consumer and privacy advocates",0.0,0,0.4536,-8.330001831054688
+2024-01-12,North Korea poised to admit first known tourists since 2020,0.0,1,0.5977,-8.330001831054688
+2024-01-12,"Argentina inflation surges past 200%, hitting highest level in decades",0.0,0,0.4482,-8.330001831054688
+2024-01-12,Kansas City Chiefs player handing out free Peacock subscriptions after calling exclusive playoff deal 'insane',0.0,1,0.509,-8.330001831054688
+2024-01-12,"Best Treadmills for Home Gyms in 2025, According to Experts",0.0,0,0.4927,-8.330001831054688
+2024-01-11,"Trump told E.U. that U.S. would never help Europe under attack, senior official says",0.0,0,0.458,-6.720001220703125
+2024-01-11,Inflation rate grows to 3.4% in December 2023: High housing costs and rent are to blame,0.0,0,0.4,-6.720001220703125
+2024-01-11,"24 best new products in January: Amazon, Our Place, Glossier",0.0,1,0.5063,-6.720001220703125
+2024-01-11,The 6 Best Toasters to Shop in 2025,0.0,0,0.4597,-6.720001220703125
+2024-01-11,Florida GOP proposes sex affidavits and ‘grooming’ bans in slate of anti-LGBTQ bills,0.0,0,0.3782,-6.720001220703125
+2024-01-11,"The best at-home Pilates reformers, according to experts",0.0,1,0.5073,-6.720001220703125
+2024-01-10,Starbucks sued for allegedly using coffee from farms with rights abuses while touting its 'ethical' sourcing,0.0,0,0.468,-1.0200042724609375
+2024-01-10,Chuck Todd: How to pick the battle against Trump,0.0,0,0.4524,-1.0200042724609375
+2024-01-10,Biden to head to Michigan and Nevada to ramp up outreach to key base voters,0.0,0,0.4656,-1.0200042724609375
+2024-01-10,Blinken pays tribute to Gaza journalist who lost another son in Israeli strike,0.0,0,0.229,-1.0200042724609375
+2024-01-10,Bhutan’s People’s Democratic Party wins election,0.0,1,0.5024,-1.0200042724609375
+2024-01-10,Even Andrew Scott was startled by his vulnerability in ‘All of Us Strangers’,0.0,0,0.4165,-1.0200042724609375
+2024-01-09,Inflation-weary Argentinians pray to cowboy saint Gauchito Gil for help,0.0,0,0.4866,-5.489990234375
+2024-01-09,Taiwan election: Voters head to the polls,0.0,0,0.4294,-5.489990234375
+2024-01-08,"Largest U.S. radio company, Audacy, files for bankruptcy protection",1.0,0,0.483,2.9599914550780966
+2024-01-08,Ground zero of Japan’s earthquake zone is ravaged by destruction and fire,1.0,1,0.543,2.9599914550780966
+2024-01-08,Biden allies see a chance to tamp down some Democratic anxiety: The State of the Union address,1.0,0,0.498,2.9599914550780966
+2024-01-08,More states are considering requiring full minimum wages for tip earners this year,1.0,1,0.5454,2.9599914550780966
+2024-01-08,Lululemon founder’s remarks have some DEI experts calling for boycotts to combat ‘regressive values’,1.0,0,0.39,2.9599914550780966
+2024-01-05,"U.S. adds 216,000 jobs in December, much better than expected",0.0,1,0.5894,-0.4399871826171591
+2024-01-05,"Once laughed off by Musk, China's BYD has taken Tesla’s EV crown",0.0,0,0.4817,-0.4399871826171591
+2024-01-05,Young voters in Bangladesh dream future free from political chaos as nation goes to vote,0.0,1,0.5806,-0.4399871826171591
+2024-01-05,Biden argues Trump remains a threat to democracy — a case his campaign thinks resonates with voters,0.0,0,0.438,-0.4399871826171591
+2024-01-05,A California restaurant’s ordeal shows how racist tropes about Asians eating dog meat persist,0.0,0,0.4568,-0.4399871826171591
+2024-01-04,Biden administration announces $162 million to expand computer chip factories in Colorado and Oregon,0.0,1,0.514,-0.5200042724609375
+2024-01-04,Biden campaign previews Jan. 6-focused speech with new TV ad,0.0,1,0.543,-0.5200042724609375
+2024-01-04,Russia and Ukraine exchange hundreds of prisoners of war in biggest release so far,0.0,0,0.4014,-0.5200042724609375
+2024-01-03,"Wall Street’s growing housing stock prices out Latino renters, buyers",0.0,1,0.622,-9.970001220703125
+2024-01-02,The Afghan women’s rights activist who says the world should talk to the Taliban,0.0,1,0.5483,-0.05999755859372158
+2024-01-02,California law banning most firearms in public is taking effect as the legal fight over it continues,0.0,1,0.5103,-0.05999755859372158
+2024-01-02,North Korea’s Kim vows to launch 3 more spy satellites and produce more nuclear materials in 2024,0.0,0,0.4624,-0.05999755859372158
+2024-01-02,Tonight's Powerball drawing is the last of the year with a $760 million jackpot,0.0,1,0.577,-0.05999755859372158
+2024-01-02,McKinsey to pay $78 million in U.S. opioid settlement over its work for drug firms like Purdue Pharma,0.0,1,0.5044,-0.05999755859372158
+2024-01-02,Beer drinking in America falls to the lowest level in a generation,0.0,0,0.4915,-0.05999755859372158
+2024-01-02,Nikki Haley's Civil War flub proves distracting in key state of New Hampshire,0.0,0,0.4915,-0.05999755859372158
